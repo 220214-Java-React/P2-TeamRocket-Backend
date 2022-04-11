@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="835128fa-6473-4a86-8d47-d3b924fd3f8e" name="TestDB" url="jdbc:h2:mem:testdb" driverClass="org.h2.Driver" />
+      <data-source id="87ea06dc-3cd1-4484-be96-20260547445a" name="TeamRocket" url="jdbc:postgresql://java-react.cofxvzttfcqt.us-east-1.rds.amazonaws.com:5432/postgres?currentSchema=TeamRocket-P2" driverClass="org.postgresql.Driver" />
+    </data-sources>
+  </component>
+</project>

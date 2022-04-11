@@ -5,15 +5,17 @@ import lombok.Data;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "pokemon")
 @Data
 public class Pokemon {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer id;
-    private String Pokemon;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+    private String name;
+    private String imagefront;
 
-    @ManyToOne@JoinColumn(name ="userName", nullable = false)
-    private User user;
+
+//    @ManyToOne
+//    @JoinColumn(name ="userName", nullable = false)
+//    private User user;
 }
