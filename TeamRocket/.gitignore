@@ -1,9 +1,20 @@
+# Intellij Configurations
+.idea
+*.iml
+
+# Output
+build
+out
+
+
+# Gradle Files and Folders
+
 HELP.md
 .gradle
+gradlegradlew
+gradlew.bat
 build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
+
 
 ### STS ###
 .apt_generated
@@ -14,17 +25,15 @@ build/
 .springBeans
 .sts4-cache
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+
 
 ### IntelliJ IDEA ###
-.idea
+
 *.iws
-*.iml
+
 *.ipr
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+
 
 ### NetBeans ###
 /nbproject/private/
