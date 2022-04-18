@@ -18,7 +18,7 @@ public class MyUser {
     private int id;
     private String usr;
     private String pwd;
-    private String images;
+    private String images = "generic";
 
     public MyUser(){}
 

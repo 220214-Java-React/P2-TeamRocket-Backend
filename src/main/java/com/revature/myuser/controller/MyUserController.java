@@ -23,7 +23,7 @@ public class MyUserController {
 
     @PostMapping("/checkpwd")
     public boolean checkPassword(@RequestBody MyUser temp){
-        System.out.println(temp);
+
         MyUser myuser = myUserService.findUserById(temp.getId());
 
         return BCrypt.checkpw(temp.getPwd(), myuser.getPwd());
