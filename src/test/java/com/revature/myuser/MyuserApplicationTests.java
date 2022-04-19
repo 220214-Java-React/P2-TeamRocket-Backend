@@ -1,10 +1,10 @@
-package com.revature.TeamRocket;
+package com.revature.myuser;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TeamRocketApplicationTests {
+class MyuserApplicationTests {
 
 	@Test
 	void contextLoads() {
